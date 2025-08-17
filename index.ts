@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middlewares
 const corsOptions = {
-  origin: 'https://ai-summarizer-frontend-8a4r.onrender.com/',
+  origin: 'https://ai-summarizer-frontend-8a4r.onrender.com',
   credentials: true,
   optionsSuccessStatus: 200
 };
