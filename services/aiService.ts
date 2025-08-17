@@ -11,7 +11,7 @@ export async function generateSummary(transcript: string, prompt: string): Promi
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',
       {
-        model: 'llama3-70b-8192',
+        model: 'llama-3.1-8b-instant',
         messages: [
           { role: 'system', content: 'You are an AI that summarizes meeting transcripts.' },
           { role: 'user', content: `${prompt}\n\nTranscript:\n${transcript}` },
