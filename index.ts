@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 // Middlewares
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? process.env.FRONTEND_URL?.split(',') || ['https://your-frontend-domain.com']
+    ? process.env.FRONTEND_URL?.split(',') || ['https://ai-summarizer-frontend-8a4r.onrender.com/']
     : ['http://localhost:3000', 'http://localhost:5173'],
   credentials: true,
   optionsSuccessStatus: 200
