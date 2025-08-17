@@ -1,0 +1,21 @@
+node_modules/
+.DS_Store
+dist/
+*.log
+# Ignore build output
+build/
+# Ignore local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+# Ignore coverage reports
+coverage/
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+# Ignore temporary files
+*.tmp
